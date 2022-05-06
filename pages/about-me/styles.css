@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+
 body {
     margin: 0;
     background-color: #FFF;
@@ -11,8 +15,9 @@ body {
 }
 
 header {
-    background: #fefefe;
-    border: 0.1px solid #bdbebe;
+    background: #1a1463;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 400;
 }
 
 header ::after{
@@ -27,6 +32,7 @@ header ::after{
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 50px;
 }
 
 nav {
@@ -41,19 +47,22 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 45px;
+    margin-left: 3px;
     padding-top: 35px;
-
+    padding-right: 20px;
     position: relative;
 }
 
 nav ul > li > a {
-    color: #6c6c6c;
+    color: #fefefe;
     text-decoration: none;
 }
 
 nav ul > li > a:hover {
-    color: #010101;
+    color: #6c6c6c;
 }
+
+
+
 
 
